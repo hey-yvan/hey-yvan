@@ -1,28 +1,26 @@
-# Hi, I'm Yvan
+# Yvan
 
-I build macOS productivity apps, developer tools, and AI-assisted workflows.
+全栈开发者，主要开发 macOS 应用和 AI 编程工具，使用 Swift、Rust 和 TypeScript。
 
-写代码，也慢慢读。把日常遇到的问题，做成顺手的小工具。
+在[博客](https://blog.aixie.de/)记录 AI Agent 的实现、源码分析和工程实践。目前的连载是《从零手写 Agent》和《Herdr 实战手记》。
 
-[Website · 灯下 Lamplight](https://aixie.de/)
+[博客](https://blog.aixie.de/) · [连载](https://blog.aixie.de/series) · [RSS](https://blog.aixie.de/feed.xml) · [个人网站](https://aixie.de/)
 
-## Selected projects
+## 项目
 
-| Project | What it does | Built with |
-| --- | --- | --- |
-| [Wink](https://github.com/hey-yvan/Wink) | A macOS menu bar app for launching and switching apps with global shortcuts, a search palette, and shortcut insights. | Swift |
-| [claude-quota-bar](https://github.com/hey-yvan/claude-quota-bar) | A fast Claude Code statusline for usage quotas, context, cache age, and Git information. | Rust |
-| [LLM Council](https://github.com/hey-yvan/llm-council-plugin) | A Claude Code plugin that brings multiple models together for code review and problem-solving. | Shell |
-| [YAPI MCP Server](https://github.com/xrf-9527/yapi-mcp-server) | Gives AI tools access to YAPI interface lists, API details, and documentation search. | Node.js / MCP |
-| [Aura Timer](https://github.com/xrf-9527/Aura-Timer) | A floating web timer with natural-language time editing and picture-in-picture support. | React / TypeScript |
+- **[Wink](https://github.com/hey-yvan/Wink)** — macOS 应用启动与切换工具。把 Caps Lock 设为 Hyper 键，用全局快捷键唤起或收起应用。Swift。[介绍与下载](https://wink.aixie.de/)
+- **[PomoFox](https://github.com/hey-yvan/pomofox-releases)** — 像素风格的 macOS 菜单栏番茄钟。Swift；源码暂未公开。[下载](https://github.com/hey-yvan/pomofox-releases/releases/latest)
+- **[claude-quota-bar](https://github.com/hey-yvan/claude-quota-bar)** — Claude Code 状态栏，显示用量额度、上下文占用、会话时长和 Git 状态。Rust。
+- **[LLM Council](https://github.com/hey-yvan/llm-council-plugin)** — Claude Code 插件，调用 Claude、Codex 和 Gemini，分别分析问题、交叉评审并汇总结论。
 
-## What I work on
+## 技术连载
 
-- **macOS tools** — small, focused utilities that fit into everyday workflows.
-- **Developer experience** — CLI tools, API integrations, and practical automation.
-- **AI-assisted engineering** — coding workflows, multi-model review, and tools that connect agents to useful context.
-- **Web development** — interfaces and experiments with TypeScript and React.
+- **[从零手写 Agent](https://blog.aixie.de/series#vol-1)** — 从直接调用模型 API 开始，逐步实现工具调用、ReAct 和任务循环，再对照实际项目理解 Harness 的职责。
+- **[Herdr 实战手记](https://blog.aixie.de/series#vol-2)** — 记录终端 Agent 的会话管理、Hooks 和状态检测，结合源码与实验验证实际行为。
 
-## Writing & learning
+## 文章选读
 
-At [灯下 Lamplight](https://aixie.de/), I share writing, reading notes, and a series on building an agent from scratch.
+- [让 Herdr 替我盯着：Hooks & State Detection](https://blog.aixie.de/notes/n-20260928-1556)
+- [对照生产实现：从一个真实 Harness 的源码里学到什么](https://blog.aixie.de/notes/n-20260901-1510)
+- [把 macOS CI 搬回自己的 Mac：额度算不过来，和我两次写错的理由](https://blog.aixie.de/notes/n-20260727-1923)
+- [Proxyman 抓不到 Node.js 流量：一次四层嵌套的抓包排查](https://blog.aixie.de/notes/n-20260724-1536)
