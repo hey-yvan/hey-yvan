@@ -1,6 +1,6 @@
 # Yvan
 
-全栈开发者，主要用 Swift、Rust 与 TypeScript 编写 macOS 原生应用、开源字体和 AI 开发工具。
+全栈开发者，主要用 Swift、Rust 与 TypeScript 编写 macOS / iOS 原生应用、开源字体和 AI 开发工具。
 
 博客记录 AI Agent 的实现、源码分析与工程实践，另有专题研究站与技术连载《从零手写 Agent》《Herdr 实战手记》。
 
@@ -13,9 +13,13 @@
 - **[一粟 Yisu](https://yisu.aixie.de/)** — 三款手绘开源中英文字体（Yinni、Huasha、Louhen），兼顾繁简中文与拉丁字母。官网逐笔书写《兰亭集序》。[字体仓库](https://github.com/zjlgdx/yisu-fonts)。
 - **[Wink](https://github.com/hey-yvan/Wink)** — macOS 应用启动与切换工具，把 Caps Lock 设为 Hyper 键，用全局快捷键唤起或收起应用。Swift · [官网](https://wink.aixie.de/)。
 - **[PomoFox](https://github.com/hey-yvan/pomofox-releases/releases/latest)** — 像素风格的 macOS 菜单栏番茄钟。Swift。
+- **素笺 Sujian**（开发中）— iPhone 上的 agent-first Markdown 笔记应用，纯文件存储与个人 R2 备份。Swift。
+- **日课 Rike**（开发中）— iPhone 与 Apple Watch 上的 agent-first 力量训练教练。Swift。
+- **展卷 Handscroll**（开发中）— 原生 iOS 长截图应用，支持自动拼接、网页整页与滚动截屏。Swift。
 
-## 工具与主题
+## 网站、工具与主题
 
+- **[Research](https://research.aixie.de/)** — 个人研究发布平台，沉淀公开的专题调研与结构化报告。Cloudflare Workers。
 - **[claude-quota-bar](https://github.com/hey-yvan/claude-quota-bar)** — Rust 编写的 Claude Code 终端状态栏，显示 5 小时与 7 天用量额度、上下文占用、缓存时长与 Git 状态。
 - **[远山 Yuanshan](https://github.com/zjlgdx/claude-theme-yuanshan)** — 随会话状态响应的 Claude 护眼动态背景主题。TypeScript。
 - **[Pinboard](https://github.com/zjlgdx/claude-theme-pinboard)** — 为 Claude 桌面与移动端设计的手工软木板主题。TypeScript。
